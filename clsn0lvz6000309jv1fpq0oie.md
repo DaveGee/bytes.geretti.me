@@ -21,15 +21,15 @@ Unfortunately, it’s often used to explain *planning — and deviation from
 
 ![How NOT to explain Agile to someone…](https://cdn-images-1.medium.com/max/800/1*jf1C0kUpfuGC0iZRnRpylw.png align="left")
 
-While making analogies is a useful communication tool, this is also a double-edged sword. 
+While making analogies is a useful communication tool, this is also a double-edged sword.
 
 I would argue that it’s fine to explain to our moms and sons what we do — provided they’re not software engineers— but if we have to use those analogies in our workplaces with our managers or our sales team to explain why *feature X* or *Y* is not yet “ready,” or why planning 12+ months of features is useless, analogies become harmful.
 
 > Since software most likely ate the whole world already, it’s time we stop explaining it with analogies!
 
-I believe analogies in the workplace, especially, are harmful. It means the person we are communicating with is unable to...
+Using analogies in the workplace means the person we communicate with cannot...
 
-* .. understand the subtle difference between different processes and tools and why software has a different lifecycle compared to other well-known things
+* .. understand the subtle differences between different processes and tools and why software has a different lifecycle compared to other well-known things.
     
 * .. comprehend the full value stream. While everyone understands the value of a house and how the building process works, how do we expect our colleagues to sell, manage, support, and communicate about the software if they don’t get that a “feature is never done”?
     
@@ -38,12 +38,12 @@ Today, in 2024, [any business leader who doesn’t understand how software is bu
 
 ### Why building software can't be compared to building houses and cars
 
-People understand “physical” things. They have interacted with them for the last 300,000 years. Building houses are probably one of the oldest crafts in the world. Computers and software have been around for the last 100 years. Modern software is less than 50 years old, give or take a decade. 2 generations max. Humans, even those born with a computer in their hands, are terrible at grasping software still.
+People understand “physical” things. They have interacted with them for the last 300,000 years. Building houses are probably one of the oldest crafts in the world. Computers and software have been around for the last 100 years. "Modern" software is less than 50 years old, give or take a decade. 2 generations max. Humans, even those born with a computer in their hands, are still terrible at grasping software.
 
 Why is that?
 
-* **Software is virtual**. Where is “virtual” on the map of the universe? It’s closer to the world of dreams than to the Andromeda galaxy.  
-    The laws of physics apply, but they don’t have the same priorities as they would for civil or mechanical engineering. Once you understand magnetism and how light travels, units, and quantities are vastly different in the virtual world (when was the last time you used the *peta-* or *exa-* prefix in the physical world? — not talking to you astronomers….)
+* **Software is virtual**. Where is “virtual” on the map of the universe? It’s geographically closer to the world of dreams than to your data center. Whatever that means.  
+    The laws of physics apply, but they don’t have the same priorities as they would for civil or mechanical engineering. Once you understand magnetism and how light travels, units and quantities are vastly different in the virtual world (when was the last time you used the *peta-* or *exa-* prefix in the physical world? — not talking to you astronomers….)
     
 * **It doesn’t have the same supply chain challenges** (e.g., dependency on “raw material”). Provided your computers are turned on, your only supply chain problem is having people working on it. No, the raw material of software is not *lines of code*. Lines of code ARE the software.   
     In the era of the Cloud, brains — and knowing what you’re doing — make or break a software company. Not the supply of silicon or aluminum).
@@ -63,11 +63,11 @@ Why is that?
 To visualize even more how those analogies are flawed, imagine…
 
 * … waking up a morning, and no service station in the world can provide gas for the next 24h. It’s like gas disappeared. No warning sign.   
-    → [That’s what happens when “a developer” breaks the internet with on](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/)[ly 17 lines of code. How would you deal with that as a construction worker?](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/)
+    → [That’s what happens when “a developer” breaks the internet with only 17 lines of code.](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) How would you deal with that as a construction worker?
     
 * .. adding more floors to your house without needing a crane? Because the house itself has a crane preconfigured. Imagine that adding one floor had the same complexity, planning, and material cost as adding ten or even 50 floors. That’s what “build pipelines” are (a.k.a. CI and CD toolchain)
     
-* … that each car comes with its assembly line in the trunk so that you can “reproduce and replace your car” whenever you want to add a feature. 
+* … that each car comes with its assembly line in the trunk so that you can “reproduce and replace your car” whenever you want to add a feature.
     
 * Imagine changing your car’s engine from gas to electricity simply by paying the higher plan to the supplier.
     
@@ -89,8 +89,6 @@ But Software Engineering is non-linear by nature.
 * We plan as if improvements were terribly inconvenient and expensive. Planning is important. However, the planning scope and schedule are not the same as when you build a bridge. Planning itself should be iterative and continuous.   
     It’s very hard to build Bridge 2.0. It’s very easy to build Feature 2.0 since the tooling (CI, CD, testing, and processes) is part of Feature. (you usually don’t keep the crate and workers around Bride 1.0 more than necessary. You dismantle them)
     
-* [The cost of maintenance is never accounted for](https://cutlefish.substack.com/p/tbm-234-maintenance-ktlo-and-bau). *“Which team is almost done with their feature so we can give them another one?”*
-    
 
 ---
 
@@ -98,11 +96,9 @@ But Software Engineering is non-linear by nature.
 
 **Examples:**
 
-* [The complexity of a 99.99% SLA is ~50x higher than a 99.5% uptime](https://world.hey.com/itzy/uptime-guarantees-a-pragmatic-perspective-736d7ea4) [commitment. I’m pretty sure everyone would prefer signing a cont](https://world.hey.com/itzy/uptime-guarantees-a-pragmatic-perspective-736d7ea4)ract with a 99.99% uptime commitment. But does it have any value? Most of the time, not, and most of the time, it cannot even legally be achieved since our cloud platforms (running the internet) don’t have that kind of SLAs themselves…
+* [The complexity of a 99.99% SLA is ~50x higher than a 99.5% uptime](https://world.hey.com/itzy/uptime-guarantees-a-pragmatic-perspective-736d7ea4) commitment. I’m pretty sure everyone would prefer signing a contract with a 99.99% uptime commitment. But does it have any value? Most of the time, not, and most of the time, it cannot even legally be achieved since our cloud platforms (running the internet) don’t have that kind of SLAs themselves…
     
-* A house in a non-seismic area, a non-war zone, would have SLAs at 100% for 20 years or more. No one talks about SLAs because the ground on which it's built, and the supply chain of materials needed for maintenance also have this kind of SLAs.
-    
-* [If your car br](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/)eaks down below 100,000km or 3 years, you're unlucky an[d the manufacturer will accept a warranty case most likely, because you're an outlier.](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/)
+* [The cost of maintenance is never accounted for](https://cutlefish.substack.com/p/tbm-234-maintenance-ktlo-and-bau). *“Which team is almost done with their feature so we can give them another one?”*
     
 
 ---
@@ -111,7 +107,7 @@ But Software Engineering is non-linear by nature.
 
 **Examples:**
 
-* Building a website for 10,000 users is not the same cost as building it for 10'000'000. Although from the outside, it looks the same. It's not the same product. And no, it's not just a question of type of EC2 instances...  
+* Building a website for 10,000 users is not the same cost as building it for 10'000'000. Although from the outside, it looks the same. It's not the same product. And no, it's not just a question of EC2 instance types...  
     When you build a car, whether you build 10,000 of them or 10'000'000 of them, the bulk of the difference is on the supply chain and factory, hardly on the car's design itself.
     
 * If you consider the infrastructure for a 10 million-user website to be similar to the "factory" that will build 10 million cars, you've been fooled by a bad analogy.
@@ -123,15 +119,15 @@ But Software Engineering is non-linear by nature.
 
 **Examples:**
 
-* To an extent, a C++ engineer and a Javascript engineer cannot exchange their seat and be as productive. Although, both of them can build a web cloud app, and both of them can build embedded software. Because they have all an understanding of how software works and how CPUs process code, and their environment allows that.  
-    I would never ask an electrician to build an entire house from scratch. But if all I have are Rust engineers around, I would feel confident they could build us a web app.
+* A C++ and a Javascript engineer cannot exchange their seat and be as productive as they were. Although both can build a web app on the cloud or embedded software because they understand how software works and how CPUs process code. And their environments allow that.  
+    I would never ask an electrician to build an entire house from scratch. But if all I have are Rust engineers around, I would feel confident they could eventually build us a web app.
     
 
 ---
 
 5/ Value offering and definition of done
 
-* Since we have this idea that things should be “finished” that comes from our physical world habits, we keep asking “*when is it ready*” instead of asking “*what will it solve*” in the virtual world.  
+* Since we have this idea that things should be “finished” which comes from our physical world habits, we keep asking “*when is it ready*” instead of asking “*what will it solve*” in the virtual world.  
     Indeed, a car or a house has to be finished to be used. But the “definition of *finished*” for software is way more difficult to pin down.
     
 
@@ -139,19 +135,19 @@ But Software Engineering is non-linear by nature.
 
 6/ Missed opportunities and cost reduction
 
-* Comparing software with physical counterparts prevents us from thinking in terms of opportunities software can bring, like scale and fluidity of the business relation. Instead of seeing our customers as long-time partners, we see them as if the relationship exists only when we make financial transactions (a one-time exchange of money for a physical good). Hence we sell them readyness dates instead of selling them a problem-solving system that evolves with them.
+* Comparing software with physical counterparts prevents us from thinking about opportunities software can bring, like scale and fluidity of the business relation. Instead of seeing our customers as long-time partners, we see them as if the relationship exists only when we make financial transactions (a one-time exchange of money for a physical good). Hence, we sell them delivery dates instead of a problem-solving system that evolves with them.
     
-* Instead of seeing a continuous value stream, we think of 1-time specifications mapped to 1-time deliveries and 1-time payment.
+* Instead of seeing a continuous value stream, we think of 1-time specifications mapped to 1-time deliveries and 1-time payments.
     
 * Instead of looking at a world of opportunities, we look at our known physical area (district, town, country, etc.) and fail to comprehend how the same software can reach 10, 1000, or millions of people.
     
 * Inversely, it makes us think that focusing on a niche today prevents us from conquering the world later. So, we tackle all the problems all the time and fail to comprehend the complexity it brings. *Chasing peta-rabbits prevents us from bringing a few thousand rabbits home now.*
     
-* Thinking this way prevents us from helping our customers think otherwise. I am still amazed at how the leading exchanges between software providers and customers — especially in the B2B world — still look like a long list of specifications (RFP) rather than regular and common design workshops.
+* Thinking this way prevents us from helping our customers think otherwise. I am still amazed at how the leading exchanges between software providers and customers — especially in the B2B world — still look like a long list of specifications (RFP?) rather than regular and common design workshops.
     
-* Instead of failing early (meaning discovering the social or business uselessness or infeasibility of our ideas early) and redirecting our funds and brains to something worthwhile, we double down on initiatives and work because “it’s not done.” We waste time and money doing things that are not validated because we think they need to be “built completely the right way” to deliver value.
+* Instead of failing early (meaning discovering the social or business uselessness or infeasibility of our ideas early) and redirecting our funds and brains to something worth it, we double down on initiatives and work because “it’s not done.” We waste time and money doing things that are not validated because we think they need to be “built completely the right way” to deliver value.
     
-* Work-in-progress in the physical world is simple to see. It’s physical. You get a pile of crap somewhere that has cost in itself (metal, bricks, etc…)   
+* Work-in-progress in the physical world is simple to see. It’s physical. You get a pile of crap somewhere that has cost in itself (metal, bricks, etc…)  
     Work-in-progress in software is intangible and difficult to measure. It’s invisible, yet it has an incredibly high cost on productivity, adaptability, and value creation that companies who don’t understand software fail to reduce.
     
 
